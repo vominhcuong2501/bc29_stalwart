@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 100%;
+}
+.header-nav {
+    float: right;
+    margin: 15px;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #7ac9ff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.header-nav a.active {
+    color: #dd4919;
+}
+.header-nav a:hover {
+    color: #dd4919;
+}
+
+/* Carousel  */
+.carousel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.carousel img {
+    height: 500px;
+    width: 100%;
+}
+.carousel-title {
+    position: absolute;
+    bottom: 470px;
+    left: 80px;
+}
+.carousel-title h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #dd4919;
+    font-weight: 500;
+}
+.carousel-title p {
+    margin: 0 10px;
+    font-size: 13px;
+    color: white;
+}
+.carousel-text {
+    text-align: right;
+    letter-spacing: 5px;
+    line-height: 40px;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+.carousel-text p {
+    background-color: #808688;
+    display: inline;
+    color: #484b4d;
+}
+.carousel-text h1 {
+    display: inline;
+    background-color: #808688;
+    color: #323232;
+    font-size: 40px;
+}
+
+/* ABOUT  */
+#about {
+    background-color: #29c0ff;
+    padding: 15px 0;
+}
+.about-text h2 {
+    font-size: 30px;
+    display: inline;
+    background-color: #72afc8;
+    font-weight: 400;
+}
+.about-text p {
+    color: #c9d3e6;
+    font-size: 13px;
+}
+
+/* Activities */
+/* PAGES */
+.pages-title {
+    text-align: center;
+}
+.pages-title h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.pages-title p {
+    color: #a99c99;
+    font-size: 13px;
+    margin: 15px 250px;
+}
+.pages-left {
+    float: left;
+    width: 50%;
+}
+.pages-left img {
+    display: block;
+}
+.pages-right {
+    float: left;
+    width: 50%;
+}
+.pages-content i {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #29c0ff;
+}
+.pages-content h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ec612e;
+    font-weight: 500;
+}
+.pages-content p {
+    margin-left: 50px;
+    font-size: 13px;
+    color: #abaebd;
+}
+.pages-content img {
+    width: 568.5px;
+    height: 400px;
+}
+
+
+/* BLOG  */
+.blog h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.blog-img {
+    float: left;
+    width: 33.33%;
+}
+.blog-content {
+    margin: 5px;
+}
+.blog-content img {
+    width: 100%;
+    display: block;
+}
+
+/* GRALLERY  */
+.grallery h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+}
+.grallery-left {
+    float: left;
+    width: 50%;
+}
+.grallery-left h2 {
+    font-weight: 400;
+}
+.grallery-left ul  {
+    list-style: none;
+    padding: 0;
+    color: #abaebd;
+    line-height: 25px;
+}
+.grallery-left i {
+    color: #29c0ff;
+    margin-right: 5px;
+}
+.grallery-right {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+.grallery-right img {
+    width: 565px;
+    height: 350px;
+}
+.grallery-content span {
+    font-size: 25px;
+    margin-right: 20px;
+    color: #29c0ff;
+}
+.grallery-content {
+    font-size: 23px;
+    font-weight: 900;
+    color: white;
+    margin-left: 70px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 50px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #242424;
+    color: #6f7777;
+    line-height: 20px;
+    padding-top: 30px;
+    height: 300px;
+    margin-top: 50px;
+}
+.footer-item {
+    float: left;
+    width: 25%;
+}
+.footer-item h2 {
+    color: white;
+}
+.footer-item ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #6f7777;
+    line-height: 35px;
+}
+.footer ul li a:hover {
+    color: #dd4919;
+}
+.footer-item input  {
+    height: 30px;
+    width: 200px;
+}
+.footer-btn {
+    position: relative;
+}
+.footer-item button {
+    padding: 7.5px 14px;
+    background-color: #dd4919;
+    border: none;
+    position: absolute;
+    right: 40px;
+}
+.footer-title {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.footer-title h1 {
+    font-size: 50px;
+    color: white;
+}
+.footer-title p {
+    font-size: 13px;
+}
+.footer-title span {
+    color: #ba3624;
+}
